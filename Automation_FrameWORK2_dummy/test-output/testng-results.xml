@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="5" ignored="2" total="8" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-04T16:07:52 IST" name="Default suite" finished-at="2024-11-04T16:08:56 IST" duration-ms="63924">
+    <groups>
+      <group name="smoketest">
+        <method signature="OrganizationCreationByUsingBaseClass.CreateOrgTest()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" name="CreateOrgTest" class="CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass"/>
+      </group> <!-- smoketest -->
+    </groups>
+    <test started-at="2024-11-04T16:07:52 IST" name="Default test" finished-at="2024-11-04T16:08:56 IST" duration-ms="63924">
+      <class name="CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass">
+        <test-method is-config="true" signature="configBs()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:07:51 IST" name="configBs" finished-at="2024-11-04T16:07:52 IST" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBs -->
+        <test-method is-config="true" signature="configBc(java.lang.String)[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:07:52 IST" name="configBc" finished-at="2024-11-04T16:07:55 IST" duration-ms="3336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBc -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:07:55 IST" name="configBm" finished-at="2024-11-04T16:08:01 IST" duration-ms="5756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method retried="true" signature="CreateOrgTest()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:01 IST" name="CreateOrgTest" finished-at="2024-11-04T16:08:04 IST" duration-ms="2460" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "Object.toString()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null
+at Com.comcast.crm.genaric.fileutility.ExcelUtility.getDataFromTheExcel(ExcelUtility.java:22)
+at CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass.CreateOrgTest(OrganizationCreationByUsingBaseClass.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrgTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:04 IST" name="configAm" finished-at="2024-11-04T16:08:07 IST" duration-ms="3220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:07 IST" name="configBm" finished-at="2024-11-04T16:08:11 IST" duration-ms="4598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method retried="true" signature="CreateOrgTest()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:11 IST" name="CreateOrgTest" finished-at="2024-11-04T16:08:12 IST" duration-ms="691" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "Object.toString()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null
+at Com.comcast.crm.genaric.fileutility.ExcelUtility.getDataFromTheExcel(ExcelUtility.java:22)
+at CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass.CreateOrgTest(OrganizationCreationByUsingBaseClass.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrgTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:12 IST" name="configAm" finished-at="2024-11-04T16:08:17 IST" duration-ms="4629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:17 IST" name="configBm" finished-at="2024-11-04T16:08:21 IST" duration-ms="4203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method retried="true" signature="CreateOrgTest()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:21 IST" name="CreateOrgTest" finished-at="2024-11-04T16:08:22 IST" duration-ms="545" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "Object.toString()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null
+at Com.comcast.crm.genaric.fileutility.ExcelUtility.getDataFromTheExcel(ExcelUtility.java:22)
+at CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass.CreateOrgTest(OrganizationCreationByUsingBaseClass.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrgTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:22 IST" name="configAm" finished-at="2024-11-04T16:08:26 IST" duration-ms="4509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:26 IST" name="configBm" finished-at="2024-11-04T16:08:30 IST" duration-ms="4220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method retried="true" signature="CreateOrgTest()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:30 IST" name="CreateOrgTest" finished-at="2024-11-04T16:08:31 IST" duration-ms="489" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "Object.toString()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null
+at Com.comcast.crm.genaric.fileutility.ExcelUtility.getDataFromTheExcel(ExcelUtility.java:22)
+at CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass.CreateOrgTest(OrganizationCreationByUsingBaseClass.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrgTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:31 IST" name="configAm" finished-at="2024-11-04T16:08:35 IST" duration-ms="4582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:35 IST" name="configBm" finished-at="2024-11-04T16:08:40 IST" duration-ms="4513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method retried="true" signature="CreateOrgTest()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:40 IST" name="CreateOrgTest" finished-at="2024-11-04T16:08:40 IST" duration-ms="437" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "Object.toString()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null
+at Com.comcast.crm.genaric.fileutility.ExcelUtility.getDataFromTheExcel(ExcelUtility.java:22)
+at CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass.CreateOrgTest(OrganizationCreationByUsingBaseClass.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrgTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:40 IST" name="configAm" finished-at="2024-11-04T16:08:46 IST" duration-ms="5765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configBm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:46 IST" name="configBm" finished-at="2024-11-04T16:08:50 IST" duration-ms="4355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method signature="CreateOrgTest()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:50 IST" name="CreateOrgTest" finished-at="2024-11-04T16:08:51 IST" duration-ms="467" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "Object.toString()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null
+at Com.comcast.crm.genaric.fileutility.ExcelUtility.getDataFromTheExcel(ExcelUtility.java:22)
+at CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass.CreateOrgTest(OrganizationCreationByUsingBaseClass.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrgTest -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:51 IST" name="configAm" finished-at="2024-11-04T16:08:56 IST" duration-ms="4390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+        <test-method is-config="true" signature="configAc()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:56 IST" name="configAc" finished-at="2024-11-04T16:08:56 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAc -->
+        <test-method is-config="true" signature="configAs()[pri:0, instance:CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass@4c371370]" started-at="2024-11-04T16:08:56 IST" name="configAs" finished-at="2024-11-04T16:08:56 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAs -->
+      </class> <!-- CreateOrganization_inRealTime_byUsingBaseClass.OrganizationCreationByUsingBaseClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
