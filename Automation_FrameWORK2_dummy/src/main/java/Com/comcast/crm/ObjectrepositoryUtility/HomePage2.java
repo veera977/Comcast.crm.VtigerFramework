@@ -25,6 +25,8 @@ public class HomePage2 {
 	}
 	@FindBy(linkText = "dropdown")
 	private WebElement dropdownbtn;
+	@FindBy(linkText = "dropdown")
+	private WebElement dropdownbtn23;
 }
 
 
