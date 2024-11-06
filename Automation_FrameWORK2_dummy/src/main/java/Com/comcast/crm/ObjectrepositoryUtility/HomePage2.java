@@ -23,10 +23,9 @@ public class HomePage2 {
 	private WebElement dropdownbtn0;
 	public WebElement getProlink() {
 		return prolink;
-		
 	}
-	@FindBy(linkText = "dropdown1")
+	@FindBy(linkText = "dropdown")
 	private WebElement dropdownbtn1;
-}
+	}
 
 
