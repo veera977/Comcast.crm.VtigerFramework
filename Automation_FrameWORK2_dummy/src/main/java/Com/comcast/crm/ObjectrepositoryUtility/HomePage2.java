@@ -21,11 +21,8 @@ public class HomePage2 {
 		return prolink;
 		
 	}
-	@FindBy(linkText = "search")
-<<<<<<< HEAD
-	private WebElement searchbtn;
-=======
-	private WebElement searchlink;
->>>>>>> branch 'master' of https://github.com/Asha306/Comcast.crm.VtigerFramework.git
-	
+	@FindBy(linkText = "dropdown")
+	private WebElement dropdownbtn;
 }
+
+
