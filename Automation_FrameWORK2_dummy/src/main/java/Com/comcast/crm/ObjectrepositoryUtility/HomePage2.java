@@ -23,7 +23,7 @@ public class HomePage2 {
 		return prolink;
 	}
 	@FindBy(linkText = "dropdown")
-	private WebElement dropdownbtn;
+	private WebElement dropdownbtn1;
 	}
 
 
