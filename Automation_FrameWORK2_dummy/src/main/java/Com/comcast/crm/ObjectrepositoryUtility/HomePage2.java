@@ -18,7 +18,7 @@ public class HomePage2 {
 	@FindBy(linkText = "Products")
 	private WebElement prolink;
 	@FindBy(linkText = "mouseover")
-	private WebElement mouseoverbtn;
+	private WebElement mouseoverbtn1;
 	public WebElement getProlink() {
 		return prolink;
 		
