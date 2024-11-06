@@ -16,6 +16,12 @@ public class HomePage {
 
 	@FindBy(linkText = "Organizations")
 	private WebElement orglink;
+	@FindBy(linkText = "Products")
+	private WebElement prolink;
+	public WebElement getProlink() {
+		return prolink;
+	}
+
 	@FindBy(linkText = "Campaigns")
 	private WebElement compaignlink;
 	@FindBy(xpath = "//img[@src='themes/softed/images/user.PNG']")
