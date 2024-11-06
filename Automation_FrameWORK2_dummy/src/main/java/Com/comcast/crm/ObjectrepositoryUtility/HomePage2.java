@@ -20,4 +20,7 @@ public class HomePage2 {
 	public WebElement getProlink() {
 		return prolink;
 	}
+	@FindBy(linkText = "search")
+	private WebElement searchbtn;
+	
 }
