@@ -21,12 +21,9 @@ public class HomePage2 {
 	private WebElement mouseoverbtn1;
 	public WebElement getProlink() {
 		return prolink;
-		
 	}
 	@FindBy(linkText = "dropdown")
 	private WebElement dropdownbtn;
-	@FindBy(linkText = "dropdown")
-	private WebElement dropdownbtn23;
-}
+	}
 
 
