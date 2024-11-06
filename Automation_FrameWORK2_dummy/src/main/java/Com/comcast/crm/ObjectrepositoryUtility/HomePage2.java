@@ -19,5 +19,9 @@ public class HomePage2 {
 	private WebElement prolink;
 	public WebElement getProlink() {
 		return prolink;
+		
 	}
+	@FindBy(linkText = "search")
+	private WebElement searchlink;
+	
 }
