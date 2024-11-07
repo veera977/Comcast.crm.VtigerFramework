@@ -8,6 +8,11 @@ public static void main(String[] args) {
 		System.out.println("bye");
 		
 		System.out.println("thinnaraaa");
+		
+		
+		System.out.println("em thinnaru");
+		System.out.println("bagunnara");
+		System.out.println("emchestunnaru");
 	}
 
 }
